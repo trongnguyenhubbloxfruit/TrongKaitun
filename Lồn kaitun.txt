@@ -1,14 +1,9 @@
-local plr = game:GetService("Players").LocalPlayer
-local Notification = require(game:GetService("ReplicatedStorage").Notification)
-
--- Thông báo chào mừng
-Notification.new("<Color=White>Trongnguyen Kaitun<Color=/>"):Display()
--- Anh em đổi thông báo ở trên nha vd: Notification.new("<Color=White>Tham Gia discord Nhé<Color=/>"):Display()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/fakekuri/NightXmixother/main/jointeam.lua"))()
+
 -- local sitink
 local sitinklib = loadstring(game:HttpGet("https://github.com/ErutTheTeru/uilibrary/blob/main/Sitink%20Lib/Source.lua?raw=true"))()
 local Notify = sitinklib:Notify({
-	["Title"] = "TrongNguyen Hub",
+	["Title"] = "TrongNguyen hub ",
 	["Description"] = "- Blox Fruits Kaitun",
 	["Color"] = Color3.fromRGB(0,0,0, 146.00000649690628, 242.00000077486038),
 	["Content"] = "Load Success!",
@@ -103,14 +98,14 @@ local icon = Instance.new("ImageLabel")
 icon.Size = UDim2.new(0, 64, 0, 64)
 icon.Position = UDim2.new(0.5, -32, 0, 16)
 icon.BackgroundTransparency = 1
-icon.Image = "rbxassetid://"
+icon.Image = "rbxassetid://109228456460870"
 icon.Parent = uiContainer
 
 local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, -20, 0, 40)
 title.Position = UDim2.new(0, 10, 0, 90)
 title.BackgroundTransparency = 1
-title.Text = "TrongNguyen Kaitun"
+title.Text = "TrongNguyen Hub"
 title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.Font = Enum.Font.FredokaOne
 title.TextSize = 32
@@ -121,7 +116,7 @@ local desc = Instance.new("TextLabel")
 desc.Size = UDim2.new(1, -40, 0, 60)
 desc.Position = UDim2.new(0, 20, 0, 140)
 desc.BackgroundTransparency = 1
-desc.Text = " By TrongNguyen"
+desc.Text = "https://discord.gg/ZVJrJt42gb"
 desc.TextColor3 = Color3.fromRGB(180, 180, 180)
 desc.Font = Enum.Font.FredokaOne
 desc.TextSize = 16
